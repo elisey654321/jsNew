@@ -17,13 +17,10 @@ html, body , ul ,li {
 	width: 860px;
 	display: none;
 	position: absolute;
-	opacity: 0;
-	transition: opacity 1s;
 }
 
-#gallery .photos img.showed{
+#gallery .photos img:first-of-type{
 	display: block;
-	opacity: 1;
 }
 
 .text-centred {
